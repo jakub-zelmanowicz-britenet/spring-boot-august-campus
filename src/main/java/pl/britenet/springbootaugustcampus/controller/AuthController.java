@@ -6,6 +6,7 @@ import pl.britenet.springbootaugustcampus.model.LoginCredentials;
 import pl.britenet.springbootaugustcampus.model.LoginResponse;
 import pl.britenet.springbootaugustcampus.service.AuthService;
 
+@CrossOrigin("http://localhost:63342")
 @RestController
 @RequestMapping("/api/v1/auth")
 public class AuthController {
